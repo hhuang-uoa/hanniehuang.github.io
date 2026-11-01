@@ -136,3 +136,14 @@ p{margin:0 0 17px}.muted{color:var(--muted)}
 body{color:#000;font-size:10pt;background:#fff}.container{width:100%}.page-hero{padding:10px 0 16px;background:none}.page-hero h1{font-size:28pt}.content-shell{padding:0}.cv-block{page-break-inside:avoid;padding:15px 0}.cv-entry{margin-top:10px}.cv-onlyprint{display:block}
 a{color:#000;text-decoration:none}
 }
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 15px;
+}
